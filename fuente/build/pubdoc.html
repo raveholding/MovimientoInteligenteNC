@@ -2757,6 +2757,7 @@ var MENU_PUBLICADO = {"secciones":[],"productos":[]};
       +'<div class="mt-tip" id="mt-msg" role="status"></div>'
       +'<p class="mt-tip">'+L('Esta tarjeta es personal y queda guardada en este celular. Si cambiás de celular, pedile al local el enlace de tu tarjeta. En el mostrador también te suman sellos con tu DNI.','This card is personal and is kept on this phone. If you change phones, ask the shop for your card link. At the counter they can also add stamps with your ID number.')+'</p></div>';
     document.body.appendChild(o); o.scrollTop=sc;
+    try{ var CN=(mtSite().canales||[]).filter(function(x){return x.k!=='wa'&&/^(https:|mailto:)/.test(x.url);}), bx=o.querySelector('.mt-btns'); if(bx) CN.forEach(function(x){ var a=document.createElement('a'); a.className='mt-b'; a.target='_blank'; a.rel='noopener noreferrer'; a.href=x.url; a.textContent=x.ic+' '+L('Escribir por ','Message on ')+x.t; bx.appendChild(a); }); }catch(e){}
     function say(t){ var m=$('#mt-msg'); if(m) m.textContent=t; }
     $('#mt-x').addEventListener('click',mtClose);
     $('#mt-menu').addEventListener('click',mtClose);

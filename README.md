@@ -27,6 +27,8 @@ Además: caja, inventario, Club de clientes, Atención al cliente, Recursos Huma
 
 ## Código
 
+**V26.70 (2026-11-12):** Atención al cliente → **🔌 Canales**: los 8 canales (tienda web y chat, WhatsApp Business, Instagram, Messenger, Telegram, correo, TikTok, Tiendanube) con «⚡ Conectar todo con un clic», asistente Rápido / Integrado y botones publicados para los socios. El modo integrado usa la función `canales` de Sistema VB (AlmacenRAVE/supabase/functions/canales) cuando el sistema trabaja con la nube.
+
 `fuente/` es una copia de la fuente de Sistema VB (`AlmacenRAVE/fuente`, V26.65) con `p11-gym.js` y el perfil `nc`. Compilar: `cd fuente && python3 build.py nc ../index.html`.
 
 Desarrollado por **Vincular Business** · Celular (387) 4484132 · https://www.vincularbusiness.com.ar/ · vincularbusiness@gmail.com · *“Tu idea, en buenas manos.”*
