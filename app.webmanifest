@@ -1,0 +1,54 @@
+{
+ "lang": "es-AR",
+ "dir": "ltr",
+ "display": "standalone",
+ "display_override": [
+  "standalone",
+  "minimal-ui"
+ ],
+ "background_color": "#060b21",
+ "theme_color": "#060b21",
+ "scope": "./",
+ "icons": [
+  {
+   "src": "app-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "app-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "app-512m.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "id": "./?app=sistema",
+ "name": "Movimiento Inteligente · Sistema",
+ "short_name": "Mov. Inteligente",
+ "description": "Gestión del entrenamiento: socios, cuotas, acceso, clases, rutinas, caja y atención al cliente.",
+ "start_url": "./#acceso",
+ "orientation": "any",
+ "categories": [
+  "business",
+  "productivity"
+ ],
+ "shortcuts": [
+  {
+   "name": "Socios",
+   "url": "./#panel/gsocios"
+  },
+  {
+   "name": "Acceso",
+   "url": "./#panel/gacceso"
+  },
+  {
+   "name": "Atención al cliente",
+   "url": "./#panel/crm"
+  }
+ ]
+}

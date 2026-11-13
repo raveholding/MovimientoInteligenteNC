@@ -27,6 +27,8 @@ Además: caja, inventario, Club de clientes, Atención al cliente, Recursos Huma
 
 ## Código
 
+**V29.1 (2026-11-13):** base Sistema VB V26.71 completa (centro de canales con un clic en Atención al cliente, cobros digitales compactos), panel de negocio ordenado en el celular, cabecera no fija en móvil, app instalable con la marca propia y sin módulos de reparto.
+
 **V26.71 (2026-11-13):** tarjeta compacta de «Detalle de los cobros digitales».
 
 **V26.70 (2026-11-12):** Atención al cliente → **🔌 Canales**: los 8 canales (tienda web y chat, WhatsApp Business, Instagram, Messenger, Telegram, correo, TikTok, Tiendanube) con «⚡ Conectar todo con un clic», asistente Rápido / Integrado y botones publicados para los socios. El modo integrado usa la función `canales` de Sistema VB (AlmacenRAVE/supabase/functions/canales) cuando el sistema trabaja con la nube.
